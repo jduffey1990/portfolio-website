@@ -1,0 +1,60 @@
+/*Overall style for the page*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: #F4F6D6;
+    text-align: center;
+}
+
+/*the header and footer are going to be stylized the same for now, so I will call them both for this next section*/
+.header,
+.footer {
+    background-color: black;
+    color: lightgray;
+    padding: 20px 0;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/*I want some space between the header and the picture*/
+.header {
+    margin-bottom: 40px;
+    height: 300px;
+}
+
+/*making a normal width here and centering the photos*/
+img,
+iframe {
+    width: 400px;
+    text-align: center;
+}
+
+/*the sections will be stylized the same*/
+.intro,
+.about,
+.contact {
+    padding: 10px 300px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32;
+}
+
+h3 {
+    font-size: 28;
+}
+
+/*I wanted the buttons to really stand out*/
+.btn {
+    padding: 1px 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 3px;
+    background-color: maroon;
+    color: white;
+}
