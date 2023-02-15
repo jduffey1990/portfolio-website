@@ -58,3 +58,8 @@ h3 {
     background-color: maroon;
     color: white;
 }
+
+a:hover {
+    background-color: white;
+    color: black;
+}
